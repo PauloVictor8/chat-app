@@ -1,0 +1,23 @@
+* {margin: 0; padding: 0; font-family: Arial, Helvetica, sans-serif;}
+
+body {
+    background-color: rgb(28, 113, 192);
+    display: grid;
+    grid-template-columns: 270px 3fr;
+}
+
+#chats {
+    grid-column: 270px;
+    background-color: white;
+    width: 270px;
+    height: 100vh;
+    border-right: 1px solid black;
+}
+
+#current-chat {
+    grid-column: 3fr;
+}
+
+input {
+    
+}
